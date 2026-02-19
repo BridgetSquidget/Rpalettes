@@ -3,7 +3,21 @@
 #' @return Character vector of palette names.
 #' @export
 list_palettes <- function() {
-  sort(names(palettes))
+  all_names <- names(palettes)
+
+  ordered_groups <- list(
+    impressionist = c("lillies", "palazzo", "wheatfield"),
+    cities = c("miami", "santa_barbara"),
+    bioluminescence = c("e_berryi", "e_scolopes", "gpo", "ostracod"),
+    uncategorized = c("rosysunset")
+  )
+
+  ordered <- unlist(
+    lapply(ordered_groups, function(group) intersect(group, all_names)),
+    use.names = FALSE
+  )
+
+  c(ordered, sort(setdiff(all_names, ordered)))
 }
 
 #' Get a palette by name
