@@ -146,7 +146,6 @@ scale_color_palettes <- function(palette, ...) {
 
   ggplot2::discrete_scale(
     aesthetics = "colour",
-    scale_name = paste0("palettes_", palette),
     palette = function(n) {
       if (n <= length(cols)) {
         cols[seq_len(n)]
@@ -175,7 +174,6 @@ scale_fill_palettes <- function(palette, ...) {
 
   ggplot2::discrete_scale(
     aesthetics = "fill",
-    scale_name = paste0("palettes_", palette),
     palette = function(n) {
       if (n <= length(cols)) {
         cols[seq_len(n)]
