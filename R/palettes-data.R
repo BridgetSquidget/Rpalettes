@@ -1,4 +1,4 @@
-#' Built-in palettes
+# ' Built-in palettes
 #'
 #' A named list of palettes. Each palette is a character vector of hex colors.
 #'
@@ -15,5 +15,8 @@ palettes <- list(
   "wheatfield" = c("#4B7638", "#B6A34B", "#528F8B", "#7C5D17", "#30557E"),
   "rosysunset" = c("#2CB799", "#64A6B7", "#875DB8", "#B75478", "#B73D2B"),
   "miami" = c("#FF9F5C", "#F07095", "#14B8D6", "#2FD6A6", "#DADBD6"),
-  "santa_barbara" = c("#D6714F", "#DABF9B", "#96A854", "#005B82", "#F5F0EC")
+  "santa_barbara" = c("#D6714F", "#DABF9B", "#96A854", "#005B82", "#F5F0EC"),
+  "st_augustine" = c("#DEDFDA", "#AED1A3", "#4A8817", "#69B6DF", "#FA7064", "#B73734"),
+  "orlando" = c("#294E85", "#87CBEF", "#12A39D", "#A1B13A", "#E56B64"),
+  "green_wave" = c("#A08A43", "#295F66", "#A8A3A2", "#335C56", "#A7AECB")  
 )
