@@ -2,9 +2,7 @@ Package: palettes
 Type: Package
 Title: Custom Color Palettes
 Version: 0.1.0
-Authors@R: c(
-    person("Bridget", "Vincent", email = "bridgetvincent@ucsb.edu", role = c("aut", "cre"))
-)
+Authors@R: person("Bridget", "Vincent", email = "bridgetvincent@ucsb.edu", role = c("aut", "cre"))
 Description: A small R package for color palettes inspired by [[]].
 License: MIT + file LICENSE
 Encoding: UTF-8
